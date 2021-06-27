@@ -151,6 +151,10 @@ const calWhichDay = (
 };
 
 // FIXME 小时计算不精确
+
+// 下面的得全改掉。
+// 从网页获取的变量有dateEarly，timeEarly，dateLate，timeLate。
+// 格式分别是yyyy-mm-dd和hh:mm
 const calDiffer = (
 	defaultDateEarly: string,
 	defaultDateLate: string,
