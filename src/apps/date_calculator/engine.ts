@@ -155,6 +155,9 @@ const calWhichDay = (
 // 下面的得全改掉。
 // 从网页获取的变量有dateEarly，timeEarly，dateLate，timeLate。
 // 格式分别是yyyy-mm-dd和hh:mm
+// 直接转时间戳，减，然后整除。
+
+/*
 const calDiffer = (
 	defaultDateEarly: string,
 	defaultDateLate: string,
@@ -237,5 +240,5 @@ const calDiffer = (
 		min: diffMin % 60,
 	};
 };
-
+*/
 export { calDiffer, calWhichDay, getToday };
